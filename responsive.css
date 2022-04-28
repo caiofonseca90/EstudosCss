@@ -1,23 +1,24 @@
-@media only screen and (min-width:320px) and (max-width: 480px) {
+@media only screen and (min-width:320px) and (max-width: 600px) {
     *{
         margin:0;
         padding: 0;
         box-sizing: border-box;
+        text-align: center;
     
     }
     body{
         background-color: #F6CF57;
+        scroll-behavior: auto;
     }
     
     .cabeca-pikachu{
+        margin-top: 20%;
+        margin-left: 15%;
         width: 450px;
         height: 500px;
         background-color: #F6CF57;
         display: flex;
-        position: absolute;
-        top: 50%;
-        left: 65%;
-        transform: translate(-50% ,-50%);
+        position: relative;
     }
     
    .box-olho{
@@ -227,6 +228,5 @@
         left: 49%;
         transform: translate(-50%, -50%);
     }
+  
 }
-
-
