@@ -1,4 +1,4 @@
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:780px) {
     *{
         margin:0;
         padding: 0;
@@ -7,14 +7,13 @@
     }
     body{
         background-color: #F6CF57;
-        
-        
     }
     
     .cabeca-pikachu{
-        margin-top: 20%;
-        margin-left: 15%;
+        margin: auto;
         width: 450px;
+        margin-top: 50%;
+        margin-left: 20%;
         height: 500px;
         background-color: #F6CF57;
         display: flex;
@@ -231,7 +230,7 @@
   
 }
 
-@media only screen and (min-width:601px) {
+@media only screen and (min-width:781px) {
     *{
         margin:0;
         padding: 0;
@@ -242,7 +241,7 @@
         background-color: #F6CF57;
     }
     
-    .cabeca-pikachu{
+    .cabeca-pikachu{    /*Box que centraliza os elementos*/
         width: 450px;
         height: 500px;
         background-color: #F6CF57;
@@ -253,13 +252,13 @@
         transform: translate(-50% ,-50%);
     }
     
-    .box-olho{
+    .box-olho{      /*Box que alinha os olhos*/
         height: 190px;
         width: 100%;display: flex;
         align-items: center;
         justify-content: space-around;
     }
-    .olho1-pikachu{
+    .olho1-pikachu{     /*Esquerdo*/
         background-color: black;
         width: 125px;
         height: 125px;
@@ -267,14 +266,14 @@
         margin-right: 70px;
         
     }
-    .olho2-pikachu{
+    .olho2-pikachu{     /*Direito*/
         background-color: black;
         width: 125px;
         height: 125px;
         border-radius: 100px;
         margin-left: 70px;
     }
-    .iris1-pikachu{
+    .iris1-pikachu{     /*Esquerdo*/
         background-color: white;
         width: 52px;
         height: 52px;
@@ -282,14 +281,14 @@
         margin: 8px;
         margin-left: 50px;
     }
-    .iris2-pikachu{
+    .iris2-pikachu{     /*Direito*/
         background-color: white;
         width: 52px;
         height: 52px;
         border-radius: 100px;
         margin: 13px;
     }
-    .brilho1-olho{
+    .brilho1-olho{      /*Esquerdo*/
         width: 12px;
         height: 12px;
         background-color: #637985 ;
@@ -299,7 +298,7 @@
         margin-left: 70px;
     
     }
-    .brilho2-olho{
+    .brilho2-olho{      /*Direito*/
         width: 12px;
         height: 12px;
         background-color: #637985 ;
@@ -309,7 +308,7 @@
         margin-left: 42px;    
     }
     
-    .nariz-pikachu{
+    .nariz-pikachu{     
         height: 22px;
         width: 37px;
         background-color: black;
@@ -319,7 +318,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .nariz2-pikachu{
+    .nariz2-pikachu{    /*Efeito no nariz*/
         height: 25px;
         width: 30px;
         background-color: #F6CF57;
@@ -330,7 +329,7 @@
         transform: rotate(45deg);
     }
     
-    .nariz3-pikachu{
+    .nariz3-pikachu{ /*Efeito no nariz*/
         height: 25px;
         width: 30px;
         background-color: #F6CF57;
@@ -340,7 +339,7 @@
         transform: translate(-50%, -50%);
         transform: rotate(-45deg);
     }
-    .bochecha1{
+    .bochecha1{     /*Esquerda*/
         height: 190px;
         width: 190px;
         background-color: #ab1c09ea;
@@ -352,7 +351,7 @@
         transform: translate(-50%, -50%)
         rotate(10deg)
     }
-    .bochecha2{
+    .bochecha2{     /*Direita*/
         height: 190px;
         width: 190px;
         background-color: #ab1c09ea;
@@ -364,7 +363,7 @@
         transform: translate(-50%, -50%)
         rotate(-10deg)
     }
-    .boca1{
+    .boca1{     /*Lado esquerdo parte superior da boca*/
         height: 64px;
         width: 65px;
         position: absolute;
@@ -385,7 +384,7 @@
         left: 41.8%;
         transform: translate(-50%, -50%)
     }
-    .boca2{
+    .boca2{     /*Lado direito parte superior da boca*/
         height: 64px;
         width: 65px;
         position: absolute;
@@ -405,7 +404,7 @@
         left: 56.4%;
         transform: translate(-50%, -50%);
     }
-    .sombra-boca{
+    .sombra-boca{   /*Efeito fundo parte de cima da boca*/
         height: 28px;
         width: 50px;
         position: absolute;
@@ -417,7 +416,7 @@
         transform: translate(-50%, -50%);
     }
     
-    .fundo-boca{
+    .fundo-boca{  /*EParte de baixo*/
         height: 98px;
         width: 92px;
         position: absolute;
@@ -431,7 +430,7 @@
         left: 49%;
         transform: translate(-50%, -50%);
     }
-    .lingua1-cima{
+    .lingua1-cima{  /*Parte da sombra*/
         height: 50px;
         width: 80px;
         position: absolute;
@@ -443,7 +442,7 @@
         transform: translate(-50%, -50%);
     }
     
-    .lingua1-baixo{
+    .lingua1-baixo{     /*Parte mais clara*/
         height: 75px;
         width: 78px;
         position: absolute;
@@ -472,8 +471,5 @@
         left: 49%;
         transform: translate(-50%, -50%)
     }
-    
-    
-    
     
 }
